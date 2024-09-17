@@ -1,14 +1,14 @@
 # Test Nuxt
 
-[x] Set up site
-[ ] Generate new design
-[ ] Generate sample content for 10 recipes
-[ ] Generate recipe web component
-[ ] Migrate recipes to use component
-[ ] Generate some tests
-[ ] Generate prominent AI/test warning
-[ ] Deploy to GitHub Pages
-[ ] Come with other great things to do
+* [x] Set up site
+* [ ] Generate new design
+* [ ] Generate sample content for 10 recipes
+* [ ] Generate recipe web component
+* [ ] Migrate recipes to use component
+* [ ] Generate some tests
+* [ ] Generate prominent AI/test warning
+* [ ] Deploy to GitHub Pages
+* [ ] Come with other great things to do
 
 ## Nuxt 3 Minimal Starter
 
