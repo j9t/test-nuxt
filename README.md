@@ -1,8 +1,20 @@
-# Nuxt 3 Minimal Starter
+# Test Nuxt
+
+[x] Set up site
+[ ] Generate new design
+[ ] Generate sample content for 10 recipes
+[ ] Generate recipe web component
+[ ] Migrate recipes to use component
+[ ] Generate some tests
+[ ] Generate prominent AI/test warning
+[ ] Deploy to GitHub Pages
+[ ] Come with other great things to do
+
+## Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+### Setup
 
 Make sure to install the dependencies:
 
@@ -20,7 +32,7 @@ yarn install
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -38,7 +50,7 @@ yarn dev
 bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
