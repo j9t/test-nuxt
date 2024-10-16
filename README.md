@@ -2,9 +2,11 @@
 
 * [x] Set up site
 * [ ] Generate new design
-* [x] Generate recipe web component
-* [x] Generate sample content for ~~10~~ 5 recipes
-* [ ] Migrate recipes to use component
+* [x] Set up recipes
+  - [x] Generate recipe web component
+  - [x] Generate sample content for 10 recipes
+* [ ] Generate additional pages
+  - [x] Contact page
 * [ ] Generate some tests
 * [ ] Generate prominent AI/test warning
 * [ ] Reformat all code
