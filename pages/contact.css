@@ -1,5 +1,4 @@
 .container {
-  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -23,7 +22,7 @@ label {
 
 input,
 textarea {
-  width: 100%;
+  width: calc(100% - 22px);
   padding: 10px;
   border: 1px solid #000;
   border-radius: 5px;

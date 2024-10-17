@@ -7,6 +7,7 @@
   - [x] Generate sample content for 10 recipes
 * [ ] Generate additional pages
   - [x] Contact page
+  - [x] About page
 * [ ] Generate some tests
 * [ ] Generate prominent AI/test warning
 * [ ] Reformat all code

@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <Head>
+      <Title>Contact</Title>
+    </Head>
     <Navigation />
     <h1>Contact Us</h1>
     <form @submit.prevent="submitForm">
@@ -21,7 +24,6 @@
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue';
 import '~/pages/contact.css';
 
 export default {

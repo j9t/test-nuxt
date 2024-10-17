@@ -26,6 +26,7 @@ export default {
 }
 
 .recipe-card img {
+  margin: auto;
   max-width: 100%;
   height: auto;
 }

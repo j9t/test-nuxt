@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <Head>
+      <Title>Home</Title>
+    </Head>
     <Navigation />
     <h1>Recipe Homepage</h1>
     <div class="masonry">
