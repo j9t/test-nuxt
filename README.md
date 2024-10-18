@@ -5,7 +5,7 @@
 * [x] Set up recipes
   - [x] Generate recipe web component
   - [x] Generate sample content for 10 recipes
-* [ ] Generate additional pages
+* [x] Generate additional pages
   - [x] Contact page
   - [x] About page
 * [x] Generate some tests [not possible (tried Jest, Mocha, ava, and others)]
