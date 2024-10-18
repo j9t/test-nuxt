@@ -1,14 +1,14 @@
 # Test Nuxt
 
 * [x] Set up site
-* [ ] Generate new design ⏳
+* [x] Generate new design [leaving it there for now]
 * [x] Set up recipes
   - [x] Generate recipe web component
   - [x] Generate sample content for 10 recipes
 * [ ] Generate additional pages
   - [x] Contact page
   - [x] About page
-* [ ] Generate some tests ⏳
+* [x] Generate some tests [not possible (tried Jest, Mocha, ava, and others)]
 * [ ] Generate prominent AI/test warning
 * [ ] Reformat all code
 * [ ] Deploy to GitHub Pages
