@@ -9,7 +9,7 @@
   - [x] Contact page
   - [x] About page
 * [x] Generate some tests [not possible (tried Jest, Mocha, ava, and others)]
-* [ ] Generate prominent AI/test warning
+* [x] Generate prominent AI/test warning
 * [ ] Reformat all code
 * [ ] Deploy to GitHub Pages
 * [ ] Come with other great things to do
