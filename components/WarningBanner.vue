@@ -1,11 +1,11 @@
 <template>
   <div class="warning-banner">
-    This site is under development and may contain AI-generated content and tests.
+    This site is under development and may contain AI-generated content and
+    tests.
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
 .warning-banner {

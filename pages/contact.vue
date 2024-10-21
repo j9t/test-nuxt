@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import '~/pages/contact.css';
+import '~/pages/contact.css'
 
 export default {
   data() {
@@ -32,9 +32,9 @@ export default {
       form: {
         name: '',
         email: '',
-        message: ''
-      }
-    };
+        message: '',
+      },
+    }
   },
   methods: {
     async submitForm() {
@@ -42,22 +42,22 @@ export default {
         const response = await fetch('/api/contact', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
-          body: JSON.stringify(this.form)
-        });
+          body: JSON.stringify(this.form),
+        })
         if (response.ok) {
-          alert('Message sent successfully!');
-          this.form.name = '';
-          this.form.email = '';
-          this.form.message = '';
+          alert('Message sent successfully!')
+          this.form.name = ''
+          this.form.email = ''
+          this.form.message = ''
         } else {
-          alert('Failed to send message.');
+          alert('Failed to send message.')
         }
       } catch (error) {
-        alert('An error occurred.');
+        alert('An error occurred.')
       }
-    }
-  }
-};
+    },
+  },
+}
 </script>

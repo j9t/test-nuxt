@@ -12,20 +12,20 @@
 </template>
 
 <script>
-import RecipeCard from '~/components/RecipeCard.vue';
-import {recipes} from '~/data/recipes.js';
-import Navigation from '~/components/Navigation.vue';
-import '~/pages/index.css';
+import RecipeCard from '~/components/RecipeCard.vue'
+import { recipes } from '~/data/recipes.js'
+import Navigation from '~/components/Navigation.vue'
+import '~/pages/index.css'
 
 export default {
   components: {
     RecipeCard,
-    Navigation
+    Navigation,
   },
   data() {
     return {
-      recipes
-    };
-  }
-};
+      recipes,
+    }
+  },
+}
 </script>

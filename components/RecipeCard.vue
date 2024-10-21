@@ -11,10 +11,10 @@ export default {
   props: {
     recipe: {
       type: Object,
-      required: true
-    }
-  }
-};
+      required: true,
+    },
+  },
+}
 </script>
 
 <style scoped>
