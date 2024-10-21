@@ -11,9 +11,12 @@
 * [x] Generate some tests [not possible (tried Jest, Mocha, ava, and others)]
 * [x] Generate prominent AI/test warning
 * [x] Reformat all code
-* [ ] Deploy to GitHub Pages
-  - [ ] Deploy on changes
+* [x] Deploy to GitHub Pages
+  - [x] Deploy on changes
+  - [x] Switch to [manual deployment](https://github.com/j9t/test-nuxt/actions/workflows/deploy.yml)
 * [ ] Come up with other great things to do
+
+(Nuxt default stuff below.)
 
 ## Nuxt 3 Minimal Starter
 
