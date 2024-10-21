@@ -12,7 +12,8 @@
 * [x] Generate prominent AI/test warning
 * [x] Reformat all code
 * [ ] Deploy to GitHub Pages
-* [ ] Come with other great things to do
+  - [ ] Deploy on changes
+* [ ] Come up with other great things to do
 
 ## Nuxt 3 Minimal Starter
 
