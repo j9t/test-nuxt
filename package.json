@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "deploy": "nuxt generate && gh-pages -d dist",
     "dev": "nuxt dev",
     "format": "prettier --write \"**/*.{js,vue,css}\"",
     "generate": "nuxt generate",
@@ -16,6 +17,7 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "prettier": "^3.3.3"
   }
 }

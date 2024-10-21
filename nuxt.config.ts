@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/global.css'],
   app: {
+    baseURL: '/test-nuxt/',
     head: {
       title: 'Nuxt Test',
       meta: [
