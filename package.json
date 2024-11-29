@@ -1,16 +1,4 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "deploy": "nuxt generate && gh-pages -d dist",
-    "dev": "nuxt dev",
-    "format": "prettier --write \"**/*.{js,vue,css}\"",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
   "dependencies": {
     "nuxt": "^3.14.1592",
     "vue": "latest",
@@ -19,5 +7,17 @@
   "devDependencies": {
     "gh-pages": "^6.2.0",
     "prettier": "^3.3.3"
-  }
+  },
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "deploy": "nuxt generate && gh-pages -d dist",
+    "dev": "nuxt dev",
+    "format": "prettier --write \"**/*.{js,vue,css}\"",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "type": "module"
 }
